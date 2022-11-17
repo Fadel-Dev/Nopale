@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  input, select, button {
+    all: unset;
+  }
+  
+  body {
+    background-color: #fff;
+    font-family: montserrat;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 0px 50px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+  }
+  header .logo {
+    height: 70px;
+  }
+  header .logo img {
+    height: 100%;
+    width: auto;
+  }
+  header .search-bar {
+    justify-content: center;
+    align-items: center;
+  }
+  header .search-bar .bar {
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    align-items: center;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 0px 10px;
+    padding-left: 30px;
+    box-shadow: 2px 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  header .search-bar .bar button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #ff4500;
+    color: #fff;
+    font-size: 14px;
+    justify-self: end;
+  }
+  header nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-self: end;
+  }
+  header nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 45px;
+    color: #000;
+    padding: 0pc 15px;
+    font-family: poppins;
+    border-radius: 10px;
+  }
+  header nav a ion-icon {
+    margin-right: 10px;
+  }
+  header nav a.register {
+    background-color: #ff4500;
+    color: #fff;
+  }
+  
+  main {
+    margin-top: 140px;
+    position: relative;
+  }
+  main .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    padding-right: 450px;
+    height: 70px;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #ff4500;
+    color: #fff;
+    z-index: 98;
+  }
+  main .header h2 {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  main .header .filter {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    padding: 0px 10px;
+  }
+  main .header .filter .text {
+    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 12px;
+  }
+  main .header .filter i0n-icon {
+    transform: translateY(5px);
+  }
+  main section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    overflow-y: scroll;
+    padding: 20px 50px;
+  }
+  main section .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  main section .box .img {
+    width: 100%;
+    padding: 0px 20px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  main section .box .img img {
+    width: 150px;
+    height: auto;
+  }
+  main section .box h3 {
+    font-weight: normal;
+    font-size: 23px;
+    margin: 10px 0;
+  }
+  main section .box p {
+    margin-bottom: 20px;
+  }
+  main aside {
+    display: grid;
+    grid-template-rows: 50px 1fr 140px;
+    height: 50px;
+    position: fixed;
+    overflow: hidden;
+    top: 80px;
+    right: 50px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    z-index: 99;
+  }
+  main aside .head {
+    display: grid;
+    padding: 0px 50px;
+    grid-template-columns: 20px auto 40px;
+    align-items: center;
+  }
+  main aside .head h2 {
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  main aside .head .nbr {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  main aside .head .nbr img {
+    width: 20px;
+    height: auto;
+    margin-left: 2px;
+  }
