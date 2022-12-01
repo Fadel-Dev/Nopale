@@ -36,11 +36,11 @@
         </div>
 
         <nav>
-            <a href="" class="connect">
+            <a href="seConnecter.php" class="connect">
                 <ion-icon name="log-in-outline"></ion-icon>
                 Se connecter
             </a>
-            <a href="" class="register">
+            <a href="sinscrire.php" class="register">
                 <ion-icon name="person-add"></ion-icon>
                 S'inscrire
             </a>
